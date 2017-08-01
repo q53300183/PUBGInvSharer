@@ -1,2 +1,2 @@
 # PUBGInvSharer
-A C#, squad based, inventory sharing application for PlayerUnknown's BattleGrounds.
+A squad based, inventory sharing application for PlayerUnknown's BattleGrounds.
