@@ -48,11 +48,18 @@ namespace PUBGInvSharer {
 		/// </summary>
 		void InitializeComponent(void)
 		{
-			this->components = gcnew System::ComponentModel::Container();
-			this->Size = System::Drawing::Size(600,400);
-			this->Text = L"MyForm";
-			this->Padding = System::Windows::Forms::Padding(0);
+			System::ComponentModel::ComponentResourceManager^  resources = (gcnew System::ComponentModel::ComponentResourceManager(MyForm::typeid));
+			this->SuspendLayout();
+			// 
+			// MyForm
+			// 
+			resources->ApplyResources(this, L"$this");
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
+			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::FixedSingle;
+			this->MaximizeBox = false;
+			this->Name = L"MyForm";
+			this->ResumeLayout(false);
+
 		}
 #pragma endregion
 	};
