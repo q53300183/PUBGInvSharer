@@ -1,8 +1,3 @@
-#include <opencv2/core/core.hpp>
-#include <opencv2/opencv.hpp>
-#include <opencv2/highgui/highgui.hpp>
-#include <opencv2/imgproc/imgproc.hpp>
-
 #include <Windows.h>
 #include <iostream>
 #include "MyForm.h"
@@ -30,7 +25,7 @@ int main(int, char**)
 
 	int monitorWidth, monitorHeight;
 	GetDesktopResolution(monitorWidth, monitorHeight);
-	cv::Mat image, outputImg;
+	// cv::Mat image, outputImg;
 
 	cout << monitorWidth << " " << monitorHeight;
 	return 0;
